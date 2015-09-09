@@ -1,0 +1,5 @@
+Number 	 Product 	 Price
+2	 chocolate	40 + 4
+3	 music	90 + 9
+Tong so thue: 13
+Tong tien: 143

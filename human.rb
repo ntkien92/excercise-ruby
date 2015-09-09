@@ -16,16 +16,19 @@ end
 def filter_age (array_human)
 	array_new = array_human.select {|human| human.age >= AGE}
 end
-array_human = Array.new
-human = Human.new("Kien", 15, "Male")
-array_human << human
-human = Human.new("Lan", 20, "Female")
-array_human << human
-human = Human.new("Hoa", 22, "Female")
-array_human << human
-human = Human.new("Nam", 22, "Male")
-array_human << human
+def input_human
+	array_human = Array.new
+	human = Human.new("Kien", 15, "Male")
+	array_human << human
+	human = Human.new("Lan", 20, "Female")
+	array_human << human
+	human = Human.new("Hoa", 22, "Female")
+	array_human << human
+	human = Human.new("Nam", 22, "Male")
+	array_human << human
+end
 
-array_gender = filter_gender(array_human, "Female")
+array_human = input_human
+array_gender = filter_gender(array_human, "Male")
 array_age = filter_age array_gender
 puts array_age
