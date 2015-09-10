@@ -18,7 +18,7 @@ class Product
 		number_tax
 	end
 	def calculation_tax
-		number * price * tax / 100
+		number * price * tax / 100.0
 	end
 	def calculation_price
 		number * price
