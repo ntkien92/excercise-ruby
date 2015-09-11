@@ -1,0 +1,5 @@
+Number 	 Product 	 Price
+23	import aaa	391 + 58.65
+3	music	90 + 9.0
+Tong so thue: 67.65
+Tong tien: 481
