@@ -1,8 +1,10 @@
 ###How to run
 ---
+
 - First, Open the Terminal
 - Second, go to the human folder
 - Final, command line, ruby main.rb to show the result
+
 ---
 ####Input values
 Example
